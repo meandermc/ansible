@@ -1,0 +1,6 @@
+---
+- hosts: linux
+  tasks:
+  - name: print host varaiable
+    debug:
+      msg: "http port no is {{ alias }}"

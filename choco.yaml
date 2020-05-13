@@ -1,0 +1,8 @@
+
+---
+- hosts: win
+  tasks:
+  - name: install notepadplusplus
+    win_chocolatey:
+      name: notepadplusplus.install
+      state: present
